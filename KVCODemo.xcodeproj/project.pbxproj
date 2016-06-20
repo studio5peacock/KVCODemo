@@ -21,6 +21,8 @@
 		D93EBC53199667D000362706 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D93EBC35199667D000362706 /* UIKit.framework */; };
 		D93EBC5B199667D000362706 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D93EBC59199667D000362706 /* InfoPlist.strings */; };
 		D93EBC5D199667D000362706 /* KVCODemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D93EBC5C199667D000362706 /* KVCODemoTests.m */; };
+		D93EBC68199667EA00362706 /* Children.m in Sources */ = {isa = PBXBuildFile; fileRef = D93EBC67199667EA00362706 /* Children.m */; };
+		D93EBC6B199678B500362706 /* KVCMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = D93EBC6A199678B500362706 /* KVCMutableArray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		D93EBC58199667D000362706 /* KVCODemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KVCODemoTests-Info.plist"; sourceTree = "<group>"; };
 		D93EBC5A199667D000362706 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D93EBC5C199667D000362706 /* KVCODemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVCODemoTests.m; sourceTree = "<group>"; };
+		D93EBC66199667EA00362706 /* Children.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Children.h; sourceTree = "<group>"; };
+		D93EBC67199667EA00362706 /* Children.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Children.m; sourceTree = "<group>"; };
+		D93EBC69199678B500362706 /* KVCMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVCMutableArray.h; sourceTree = "<group>"; };
+		D93EBC6A199678B500362706 /* KVCMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVCMutableArray.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 				D93EBC43199667D000362706 /* Main.storyboard */,
 				D93EBC46199667D000362706 /* ViewController.h */,
 				D93EBC47199667D000362706 /* ViewController.m */,
+				D93EBC66199667EA00362706 /* Children.h */,
+				D93EBC67199667EA00362706 /* Children.m */,
+				D93EBC69199678B500362706 /* KVCMutableArray.h */,
+				D93EBC6A199678B500362706 /* KVCMutableArray.m */,
 				D93EBC49199667D000362706 /* Images.xcassets */,
 				D93EBC38199667D000362706 /* Supporting Files */,
 			);
@@ -249,8 +259,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D93EBC6B199678B500362706 /* KVCMutableArray.m in Sources */,
 				D93EBC48199667D000362706 /* ViewController.m in Sources */,
 				D93EBC42199667D000362706 /* AppDelegate.m in Sources */,
+				D93EBC68199667EA00362706 /* Children.m in Sources */,
 				D93EBC3E199667D000362706 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
